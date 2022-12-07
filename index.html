@@ -12,11 +12,15 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
     <!-- Start navbar -->
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg">
         <div class="container">
             <h1>
                 <a class="navbar-brand" href="#"><img src="assets/img/logo.png" alt="logo.png" height="48"></a>
@@ -46,22 +50,230 @@
     <div class="container px-4 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
             <div class="col-10 col-sm-8 col-lg-6">
-                <img src="assets/img/hero-img.png" class="d-block mx-lg-auto img-fluid" alt="ilife-ciptakan-tempat-tinggal-impianmu" width="700"
-                    height="500" loading="lazy">
+                <img src="assets/img/hero-img.png" class="d-block mx-lg-auto img-fluid"
+                    alt="ilife-ciptakan-tempat-tinggal-impianmu" width="500" height="300" loading="lazy">
             </div>
             <div class="col-lg-6">
                 <h2 class="display-5 fw-bold lh-1 mb-3">Cari Vendor Bangunanmu</h2>
                 <form role="search">
                     <div class="mb-3">
-                        <label for="searchVendor" class="form-label">Lokasi</label>
-                        <input class="form-control me-2" type="search" placeholder="Misal D.I. Yogyakarta" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
+                        <label for="searchVendor" class="fw-semibold form-label">Lokasi</label>
+                        <div class="col-md-9 d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Misal D.I. Yogyakarta"
+                                aria-label="Search">
+                            <button class="btn btn-primary" type="submit"><i
+                                    class="fa-solid fa-magnifying-glass"></i></button>
+                        </div>
                     </div>
                 </form>
             </div>
         </div>
     </div>
     <!-- Stop heroes -->
+
+    <!-- Start intro -->
+    <section class="text-center">
+        <div class="container px-4 py-5" id="featured-3">
+            <h2 class="fw-semibold pb-2 mb-4">Mengapa menggunakan ilife</h2>
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+                <div class="feature col">
+                    <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <h3 class="fs-2">Terverifikasi</h3>
+                    <p>Vendor yang terdaftar di ilife sudah melewati tahapan
+                        verifikasi terlebih dahulu.</p>
+                </div>
+                <div class="feature col">
+                    <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
+                        <i class="fa-solid fa-lock"></i>
+                    </div>
+                    <h3 class="fs-2">Pembayaran Aman</h3>
+                    <p>Uang tidak langsung menuju saldo vendor sebelum vendor menyelesaikan pesanan customer.</p>
+                </div>
+                <div class="feature col">
+                    <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                    <h3 class="fs-2">Terintegritas</h3>
+                    <p>Vendor jujur tanpa manipulasi material bangunan, sehingga hasil akan sesuai dengan yang
+                        direncakan.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Stop intro -->
+
+    <!-- Start promo -->
+    <section class="text-center py-4 mb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="fw-semibold pb-2 mb-4">Promo</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <img src="assets/img/img-promo.png" alt="img-promo.png">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Stop promo -->
+
+    <!-- Start rekomendasi vendor -->
+    <section class="py-4 bg-light mt-3">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-12">
+                    <h2 class="fw-semibold pb-2 mb-4 mt-4">Rekomendasi vendor untuk kamu</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 mb-3">
+                    <div class="card">
+                        <img src="assets/img/img-vendor.png" class="card-img-top" alt="img-vendor.png">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center">
+                                <img src="assets/img/logo-vendor.png" alt="logo-vendor.png" height="40">
+                                <div class="vendor-identity mx-2">
+                                    <h5 class="card-title">Bagawanta Arsitektur</h5>
+                                    <p class="card-text">Yogyakarta | <span class="ic-rating"><i
+                                                class="fa-solid fa-star"></i> 5.0</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-3">
+                    <div class="card">
+                        <img src="assets/img/img-vendor.png" class="card-img-top" alt="img-vendor.png">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center">
+                                <img src="assets/img/logo-vendor.png" alt="logo-vendor.png" height="40">
+                                <div class="vendor-identity mx-2">
+                                    <h5 class="card-title">Bagawanta Arsitektur</h5>
+                                    <p class="card-text">Yogyakarta | <span class="ic-rating"><i
+                                                class="fa-solid fa-star"></i> 5.0</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-3">
+                    <div class="card">
+                        <img src="assets/img/img-vendor.png" class="card-img-top" alt="img-vendor.png">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center">
+                                <img src="assets/img/logo-vendor.png" alt="logo-vendor.png" height="40">
+                                <div class="vendor-identity mx-2">
+                                    <h5 class="card-title">Bagawanta Arsitektur</h5>
+                                    <p class="card-text">Yogyakarta | <span class="ic-rating"><i
+                                                class="fa-solid fa-star"></i> 5.0</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-3">
+                    <div class="card">
+                        <img src="assets/img/img-vendor.png" class="card-img-top" alt="img-vendor.png">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center">
+                                <img src="assets/img/logo-vendor.png" alt="logo-vendor.png" height="40">
+                                <div class="vendor-identity mx-2">
+                                    <h5 class="card-title">Bagawanta Arsitektur</h5>
+                                    <p class="card-text">Yogyakarta | <span class="ic-rating"><i
+                                                class="fa-solid fa-star"></i> 5.0</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Stop rekomenasi vendor -->
+
+    <!-- Start artikel -->
+    <section>
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-12">
+                    <h2 class="fw-semibold pb-2 mb-4 mt-4">Artikel</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 mb-3">
+                    <div class="card">
+                        <img src="assets/img/img-vendor.png" class="card-img-top" alt="img-vendor.png">
+                        <div class="card-body">
+                            <h5 class="card-title">Mari Kita Lihat Kemewahan Rumah Seharga 900 Juta</h5>
+                            <p class="card-text">
+                                Rumah mewah dengan 900 juta ini sangat menawan, dengan design rumah yang modern membuat
+                                rumah ini serasa high class
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-3">
+                    <div class="card">
+                        <img src="assets/img/img-artikel.png" class="card-img-top" alt="img-vendor.png">
+                        <div class="card-body">
+                            <h5 class="card-title">Tips Memilih Vendor Bukan Abal-Abal!</h5>
+                            <p class="card-text">
+                                Rumah mewah dengan 900 juta ini sangat menawan, dengan design rumah yang modern membuat
+                                rumah ini serasa high class
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-3">
+                    <div class="card">
+                        <img src="assets/img/img-vendor.png" class="card-img-top" alt="img-vendor.png">
+                        <div class="card-body">
+                            <h5 class="card-title">Mari Kita Lihat Kemewahan Rumah Seharga 900 Juta</h5>
+                            <p class="card-text">
+                                Rumah mewah dengan 900 juta ini sangat menawan, dengan design rumah yang modern membuat
+                                rumah ini serasa high class
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Stop artikel -->
+
+    <!-- Start FAQ -->
+    <section class="py-4">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-12">
+                    <h2 class="fw-semibold pb-2 mb-4 mt-4">FAQ</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <details class="border-bottom py-3">
+                        <summary class="fw-bold">Untuk kosultasi di sini apakah gratis?</summary>
+                        <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international
+                            pavilions, award-winning fireworks and seasonal special events.</p>
+                    </details>
+                    <details class="border-bottom py-3">
+                        <summary class="fw-bold">Bisakah kita menggunakan vendor ini tapi material saya sendiri?</summary>
+                        <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international
+                            pavilions, award-winning fireworks and seasonal special events.</p>
+                    </details>
+                    <details class="border-bottom py-3">
+                        <summary class="fw-bold">Apakah ada maintenance?</summary>
+                        <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international
+                            pavilions, award-winning fireworks and seasonal special events.</p>
+                    </details>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Start javascript -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
