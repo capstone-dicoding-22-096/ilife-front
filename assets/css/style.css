@@ -4,3 +4,6 @@ body{
 .bg-color-folio{
     background: #F1F4F9;
 }
+.ic-rating i{
+    color: #FFC107;
+}
