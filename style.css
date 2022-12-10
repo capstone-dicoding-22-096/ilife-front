@@ -6,14 +6,18 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: #ffffff;
 }
-    
+
+.container{
+    margin-top: 32px;
+}
+
 .btn {
     background-color: #14ACA2;
     color: #ffffff;
     padding: 12px;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: #129d93;
     color: #ffffff;
 }
@@ -33,7 +37,7 @@ body {
 .form-datetime {
     padding: 6px 12px;
     border-radius: 6px;
-    
+
 }
 
 .form-check {
@@ -50,18 +54,41 @@ body {
     border-radius: 12px;
     flex: none;
     order: 0;
-    flex-grow: 0; 
+    flex-grow: 0;
 }
 
-.logo-payment{
+.logo-payment {
     width: 84px;
     height: 56px;
 }
 
-.payment-ewallet{
+.payment-ewallet {
     margin-top: 32px;
 }
 
-.payment-bank{
+.payment-bank {
     margin-top: 32px;
+}
+
+.card-payment-list {
+    background-color: #F1F4F9;
+    padding: 32px;
+    border-radius: 12px;
+}
+
+.summary-project {
+    margin: 10px;
+}
+
+.summary-project-content{
+    margin-top: 24px;
+}
+
+span.price {
+    float: right;
+    color: rgb(0, 0, 0);
+}
+
+#total-payment {
+    color: #14ACA2;
 }
