@@ -32,5 +32,36 @@ body {
 
 .form-datetime {
     padding: 6px 12px;
+    border-radius: 6px;
     
+}
+
+.form-check {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 24px;
+    gap: 24px;
+    width: 500px;
+    height: 80px;
+    background: #ffffff;
+    border: 1px solid #D5D6D8;
+    border-radius: 12px;
+    flex: none;
+    order: 0;
+    flex-grow: 0; 
+}
+
+.logo-payment{
+    width: 84px;
+    height: 56px;
+}
+
+.payment-ewallet{
+    margin-top: 32px;
+}
+
+.payment-bank{
+    margin-top: 32px;
 }
