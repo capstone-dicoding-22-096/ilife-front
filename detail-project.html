@@ -48,10 +48,10 @@
     <div class="row">
       <div class="col-md-8">
         <section class="fill-detail">
-          <h2>Isi Kebutuhanmu </h2>
+          <h2 class="mt-3">Isi Kebutuhanmu </h2>
           <form class="row g-3">
             <div class="col-md-12">
-              <label for="form-select">Tipe Rumah</label>
+              <label for="form-select" class="mt-3 form-label">Tipe Rumah</label>
               <select id="inputState" class="form-select">
                 <option selected>Pilih Tipe Rumahmu</option>
                 <option>Rumah</option>
@@ -63,24 +63,31 @@
   
           <form class="row g-3">
             <div class="col-md-6">
-              <label for="inputEmail4" class="form-label">Luas Tanah</label>
+              <label for="inputEmail4" class="mt-3 form-label">Luas Tanah</label>
               <div class="input-group mb-3">
                 <input type="number" class="form-control">
                 <span class="input-group-text" id="basic-addon2">m2</span>
               </div>
             </div>
             <div class="col-md-6">
-              <label for="inputPassword4" class="form-label">Luas Bangunan</label>
+              <label for="inputPassword4" class="mt-3 form-label">Luas Bangunan</label>
               <div class="input-group mb-3">
                 <input type="number" class="form-control">
                 <span class="input-group-text" id="basic-addon2">m2</span>
               </div>
             </div>
           </form>
+
+          <form class="row g-3">
+            <div class="col-md-12">
+              <label for="exampleFormControlTextarea1" class="mt-3  form-label">Alamat Rumah</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+          </form>
   
           <form class="row g-3">
             <div class="col-md-6">
-              <label for="inputState" class="d-block form-label">Penyedia Material</label>
+              <label for="inputState" class="mt-3 d-block form-label">Penyedia Material</label>
               <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
                 <label class="form-check-label" for="inlineRadio1">Saya</label>
@@ -94,21 +101,21 @@
   
           <form class="row g-3">
             <div class="col-md-12">
-              <label for="exampleFormControlTextarea1" class="form-label">Deskripsi Proyek</label>
+              <label for="exampleFormControlTextarea1" class="mt-3  form-label">Deskripsi Proyek</label>
               <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
           </form>
   
           <form class="row g-3">
             <div class="col-md-12">
-              <label for="formFileMultiple" class="form-label">Referensi Proyek</label>
+              <label for="formFileMultiple" class="mt-3 form-label">Referensi Proyek</label>
               <input class="form-control" type="file" id="formFileMultiple" multiple />
             </div>
           </form>
   
           <form class="row g-3">
             <div class="col-md-6">
-              <label for="basic-url" class="form-label">Anggaran Minimal</label>
+              <label for="basic-url" class="mt-3 form-label">Anggaran Minimal</label>
               <div class="input-group mb-3">
                 <span class="input-group-text" id="basic-addon3">Rp</span>
                 <input type="number" class="form-control" id="basic-url" aria-describedby="basic-addon3">
@@ -116,7 +123,7 @@
             </div>
   
             <div class="col-md-6">
-              <label for="basic-url" class="form-label">Anggaran Maksimal</label>
+              <label for="basic-url" class="mt-3 form-label">Anggaran Maksimal</label>
               <div class="input-group mb-3">
                 <span class="input-group-text" id="basic-addon3">Rp</span>
                 <input type="number" class="form-control" id="basic-url" aria-describedby="basic-addon3">
@@ -131,8 +138,8 @@
           <section class="container">
             <h2>Survey Lokasi</h2>
             <form class="row g-3">
-              <label for="basic-url" class="form-label">Tanggal</label>
               <div class="col-md-12">
+                <label for="basic-url" class="mt-3 form-label">Tanggal</label>
                 <div class="d-grid gap-2">
                   <input class="form-datetime" type="date" id="birthday" name="birthday">
                 </div>
@@ -140,15 +147,15 @@
             </form>
 
             <form class="row g-3">
-              <label for="basic-url" class="form-label">Waktu</label>
               <div class="col-md-12">
+                <label for="basic-url" class="mt-3 form-label">Waktu</label>
                 <div class="d-grid gap-2">
                   <input class="form-datetime" type="time" id="appt" name="appt">
                 </div>
               </div>
             </form>
             <div class="d-grid gap-2">
-              <button class="btn btn-primary" type="button">Pembayaran</button>
+              <button class="mt-3 btn btn-primary" type="button">Pembayaran</button>
             </div>
             
             
