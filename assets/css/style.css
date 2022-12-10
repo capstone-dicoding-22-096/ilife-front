@@ -10,6 +10,22 @@ body{
     border: 0px;
 }
 
+.img-slider{
+    overflow-x: scroll;
+    padding: 22px 0px;
+}
+
+@media(max-width: 576px){
+    .img-slider img{
+        width: auto;
+        height: auto;
+    }
+}
+
+.img-slider::-webkit-scrollbar{
+    display: none;
+}
+
 .card{
     border: 0;
     transition: 0.7s all;
@@ -47,4 +63,23 @@ body{
 
 .row-head h2{
     margin-bottom: 40px;
+}
+
+footer{
+    background: #191B1E;
+    color: #fff;
+}
+
+footer .nav-item a{
+    color: #fff;
+}
+footer .nav-item a:hover{
+    color: #14ACA2;
+}
+.block-socmed{
+    padding: 15px 0;
+}
+.block-socmed i{
+    font-size: 1.4em;
+    margin: 0 10px;
 }
