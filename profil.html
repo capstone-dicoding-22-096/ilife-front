@@ -12,11 +12,16 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
 
 <body>
     <!-- Start navbar -->
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg shadow-sm">
         <div class="container">
             <h1>
                 <a class="navbar-brand" href="#"><img src="assets/img/logo.png" alt="logo.png" height="48"></a>
@@ -39,6 +44,8 @@
                     </li>
                 </ul>
             </div>
+            <a class="btn btn-dark mx-3" href="">Masuk</a>
+            <a class="btn btn-outline-secondary" href="">Daftar</a>
         </div>
     </nav>
     <!-- Stop navbar -->
@@ -72,22 +79,36 @@
     <section class="py-5 mt-5">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-lg-4 mb-4">
+                <div class="col-lg-8 mb-4">
                     <div class="card">
                         <div class="card-body">
                             <div class="d-flex align-items-center">
                                 <img src="assets/img/profile.png" alt="logo-vendor.png" height="90">
                                 <div class="vendor-identity mx-2">
-                                    <p class="card-text ">Yogyakarta </p>
-                                    <h2 class="card-title">Arkasi Arsitek</h2>
+                                    <p class="card-title">Yogyakarta </p>
+                                    <h2 class="card-title">Arkasi Arsitek<i class="fa-light fa-square-heart"></i></h2>
                                     <p class="card-text"><span class="ic-rating"><i class="fa-solid fa-star"></i>
                                             5.0</span> (35 ulasan)</p>
+                                </div>
+                                <div class="vendor-identity">
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-grid gap-4 align-items-center">
+                                <button class="btn btn-primary btn-lg" type="button"> pesan</button>
+                                <button class="btn btn-outline-secondary btn-lg" type="button">konsultasi</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
             </div>
+
         </div>
     </section>
     <!-- profile -->
@@ -178,39 +199,82 @@
     </section>
     <!-- Portofolio -->
     <!-- Testimoni -->
-    <section class="py-4 mb-5">
+    <section class="py-5 mt-5">
         <div class="container">
-            <div class="row text-center row-head">
-                <div class="col-lg-12">
-                    <h2 class="fw-semibold pb-2 mt-4">FAQ</h2>
-                </div>
-            </div>
             <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <details class="border-bottom py-3">
-                        <summary class="fw-bold">Untuk kosultasi di sini apakah gratis?</summary>
-                        <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions,
-                            international
-                            pavilions, award-winning fireworks and seasonal special events.</p>
-                    </details>
-                    <details class="border-bottom py-3">
-                        <summary class="fw-bold">Bisakah kita menggunakan vendor ini tapi material saya sendiri?
-                        </summary>
-                        <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions,
-                            international
-                            pavilions, award-winning fireworks and seasonal special events.</p>
-                    </details>
-                    <details class="border-bottom py-3">
-                        <summary class="fw-bold">Apakah ada maintenance?</summary>
-                        <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions,
-                            international
-                            pavilions, award-winning fireworks and seasonal special events.</p>
-                    </details>
+                <div></div>
+                <div class="col-lg-8 mb-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center">
+                                <img src="assets/img/profile.png" alt="logo-vendor.png" height="90">
+                                <div class="vendor-identity mx-2">
+                                    <p class="card-title">Yogyakarta </p>
+                                    <h2 class="card-title">Arkasi Arsitek<i class="fa-light fa-square-heart"></i></h2>
+                                    <p class="card-text"><span class="ic-rating"><i class="fa-solid fa-star"></i>
+                                            5.0</span> (35 ulasan)</p>
+                                </div>
+                                <div class="vendor-identity">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Stop FAQ -->
+    <!-- Testimoni -->
+    <!-- footer -->
+
+    <footer class="py-5">
+        <div class="container py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 col-md-12">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-3 mb-3">
+                            <div class="mx-4">
+                                <img src="assets/img/logo-white.png" alt="logo-white.png">
+                            </div>
+                        </div>
+                        <div class="col-lg-3 mb-3">
+                            <ul class="nav flex-column mx-4">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Policy</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Terms</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 mb-3">
+                            <h5 class="mx-4">Contact</h5>
+                            <ul class="nav flex-column mx-4">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="fa-regular fa-envelope"></i>
+                                        contact@ilife.com</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">+62 858 9221 0987 </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 mb-3">
+                            <h5 class="mx-4">Follow us</h5>
+                            <div class="block-socmed mx-4">
+                                <i class="fa-brands fa-facebook-f"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                                <i class="fa-brands fa-twitter"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer -->
 
     <!-- Start javascript -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"

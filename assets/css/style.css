@@ -9,6 +9,13 @@ body{
     background: #14ACA2;
     border: 0px;
 }
+.btn-primary:hover{
+    background: #14ACA2;
+}
+.btn-outline-secondary:hover{
+    background:#FFFFFF;
+    color: #333333;
+}
 
 .card{
     border: 0;
