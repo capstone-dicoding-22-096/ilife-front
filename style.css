@@ -7,7 +7,7 @@ body {
     background-color: #ffffff;
 }
 
-.container{
+.container {
     margin-top: 32px;
 }
 
@@ -20,6 +20,12 @@ body {
 .btn:hover {
     background-color: #129d93;
     color: #ffffff;
+}
+
+.btn-primary:hover {
+    background-color: #129d93;
+    color: #ffffff;
+
 }
 
 .card {
@@ -80,7 +86,7 @@ body {
     margin: 10px;
 }
 
-.summary-project-content{
+.summary-project-content {
     margin-top: 24px;
 }
 
@@ -91,4 +97,18 @@ span.price {
 
 #total-payment {
     color: #14ACA2;
+}
+
+.text-capitalize {
+    background-color: #14ACA2;
+    border: 0px;
+    align-items: center;
+}
+
+.text-capitalize:hover {
+    background-color: #129d93;
+}
+
+.text-white {
+    background-color: #14ACA2;
 }
