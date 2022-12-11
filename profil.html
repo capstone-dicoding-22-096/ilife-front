@@ -16,7 +16,6 @@
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="assets/css/style.css">
-
 </head>
 
 <body>
@@ -49,33 +48,57 @@
         </div>
     </nav>
     <!-- Stop navbar -->
-    <div class="container px-5 py-7">
-        <div class="row">
-            <div class="col-6 offset-2">
-                <img src="assets/img/img2.png" class="rounded" alt="">
-            </div>
-            <div class="col-6">
-                <div class="row">
-                    <div class="col-2 ">
-                        <img src="assets/img/img2.png" class="rounded" alt="">
-                    </div>
-                    <div class="col-2">
-                        <img src="assets/img/img2.png" class="rounded" alt="">
+    <!-- start Header -->
+    <section class="py-5 mt-4">
+        <div class="container">
+            <div class="row justify-content-lg-start">
+                <div class="col-lg-6">
+                    <div class="card border-0 bg-light rounded-3">
+                        <div class=" rounded-3 overflow-hidden">
+                            <img src="assets/img/home.png" class="card-img-top" alt="img-vendor.png">
+                        </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-2 ">
-                        <img src="assets/img/img2.png" class="rounded" alt="">
+                <div class="col-lg-5">
+                    <div class="row justify-content-lg-start">
+                        <div class="col-6 p-md-4">
+                            <div class="card border-0 bg-light rounded-3">
+                                <div class=" rounded-3 overflow-hidden">
+                                    <img src="assets/img/home.png" class="card-img-top" alt="img-vendor.png">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 p-md-4">
+                            <div class="card border-0 bg-light rounded-3">
+                                <div class=" rounded-3 overflow-hidden">
+                                    <img src="assets/img/home.png" class="card-img-top" alt="img-vendor.png">
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-2">
-                        <img src="assets/img/img2.png" class="rounded" alt="">
+                    <div class="row justify-content-lg-start">
+                        <div class="col-6 p-md-4">
+                            <div class="card border-0 bg-light rounded-3">
+                                <div class=" rounded-3 overflow-hidden">
+                                    <img src="assets/img/home.png" class="card-img-top" alt="img-vendor.png">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 p-md-4">
+                            <div class="card border-0 bg-light rounded-3">
+                                <div class=" rounded-3 overflow-hidden">
+                                    <img src="assets/img/home.png" class="card-img-top" alt="img-vendor.png">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- hero -->
-    <!--profile-->
+    </section>
+    <!-- stop Header -->
+
+    <!--start profile-->
     <section class="py-5 mt-5">
         <div class="container">
             <div class="row justify-content-center">
@@ -111,8 +134,9 @@
 
         </div>
     </section>
-    <!-- profile -->
-    <!-- tentang kita -->
+    <!-- stop profile -->
+
+    <!-- start tentang kita -->
     <section class="py-7  mt-5">
         <div class="container">
             <div class="row text-lg-start row-head">
@@ -128,8 +152,9 @@
             </div>
         </div>
     </section>
-    <!-- tentang kita -->
-    <!-- Portofolio -->
+    <!-- stop tentang kita -->
+
+    <!-- start Portofolio -->
     <section class="py-5 mt-5">
         <div class="container">
             <div class="row text-lg-start row-head">
@@ -197,35 +222,54 @@
             </div>
         </div>
     </section>
-    <!-- Portofolio -->
-    <!-- Testimoni -->
+    <!-- stop Portofolio -->
+    <!-- start Testimoni -->
     <section class="py-5 mt-5">
         <div class="container">
-            <div class="row justify-content-center">
-                <div></div>
-                <div class="col-lg-8 mb-6">
+            <div class="row text-lg-start row-head">
+                <div class="col-6">
+                    <h2 class="fw-semibold pb-2 mt-1">Testimonials</h2>
+                </div>
+                <div class="col-1 g-md-1">
+                    <h6>Urutan</h6>
+                </div>
+                <div class="col-sm-3">
+                    <label class="visually-hidden" for="specificSizeSelect">Preference</label>
+                    <select class="form-select" id="specificSizeSelect">
+                        <option selected>Ratting Tertingi</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row justify-content-start">
+                <div class="col-lg-10 mb-6">
                     <div class="card">
                         <div class="card-body">
                             <div class="d-flex align-items-center">
-                                <img src="assets/img/profile.png" alt="logo-vendor.png" height="90">
+                                <img src="assets/img/profile.png" alt="logo-vendor.png" height="60">
                                 <div class="vendor-identity mx-2">
-                                    <p class="card-title">Yogyakarta </p>
-                                    <h2 class="card-title">Arkasi Arsitek<i class="fa-light fa-square-heart"></i></h2>
-                                    <p class="card-text"><span class="ic-rating"><i class="fa-solid fa-star"></i>
-                                            5.0</span> (35 ulasan)</p>
+                                    <h5 class="card-title">Arkasi Arsitek<i class="fa-light fa-square-heart"></i></h5>
+                                    <p class="card-text"><span class="ic-rating"><i class="fa-solid fa-star"></i><i
+                                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                                class="fa-solid fa-star"></i></span>
+                                    </p>
                                 </div>
-                                <div class="vendor-identity">
+                                <div class="vendor-identity mx-2">
                                 </div>
                             </div>
+                            <p>Saya sangat suka dengan vendor ini. Cepat, murah dan hasilnya juga sangat ok!
+                                Pokoknya bintang 5 mantapp!</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Testimoni -->
-    <!-- footer -->
+    <!-- stop Testimoni -->
 
+    <!-- start footer -->
     <footer class="py-5">
         <div class="container py-4">
             <div class="row justify-content-center">
@@ -274,7 +318,7 @@
             </div>
         </div>
     </footer>
-    <!-- footer -->
+    <!-- stop footer -->
 
     <!-- Start javascript -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
