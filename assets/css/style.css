@@ -4,7 +4,9 @@ body{
 .navbar .btn{
     padding: 12px 25px;
 }
-
+.nav-link{
+    color: #FFFFFF;
+}
 .btn-primary{
     background: #14ACA2;
     border: 0px;
