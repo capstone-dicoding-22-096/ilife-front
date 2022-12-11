@@ -4,19 +4,26 @@ body{
 .navbar .btn{
     padding: 12px 25px;
 }
-.nav-link{
-    color: #FFFFFF;
-}
+
 .btn-primary{
     background: #14ACA2;
     border: 0px;
 }
-.btn-primary:hover{
-    background: #14ACA2;
+
+.img-slider{
+    overflow-x: scroll;
+    padding: 22px 0px;
 }
-.btn-outline-secondary:hover{
-    background:#FFFFFF;
-    color: #333333;
+
+@media(max-width: 576px){
+    .img-slider img{
+        width: auto;
+        height: auto;
+    }
+}
+
+.img-slider::-webkit-scrollbar{
+    display: none;
 }
 
 .card{
@@ -57,6 +64,22 @@ body{
 .row-head h2{
     margin-bottom: 40px;
 }
-.ic-rating i{
-    color: #FFC107;
+
+footer{
+    background: #191B1E;
+    color: #fff;
+}
+
+footer .nav-item a{
+    color: #fff;
+}
+footer .nav-item a:hover{
+    color: #14ACA2;
+}
+.block-socmed{
+    padding: 15px 0;
+}
+.block-socmed i{
+    font-size: 1.4em;
+    margin: 0 10px;
 }
